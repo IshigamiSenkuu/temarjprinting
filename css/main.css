@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&display=swap");
+@import "utils.css";
+@import "navbar.css";
+@import "home.css";
+@import "footer.css";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "East Sea Dokdo", cursive;
+}
+
+.navbar nav {
+  color: white;
+}
+li {
+  list-style: none;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  line-height: 2rem;
+}

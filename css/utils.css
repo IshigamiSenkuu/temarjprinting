@@ -1,0 +1,14 @@
+.container {
+  max-width: 1400px;
+  /* border: red 2px solid; */
+  height: 100%;
+}
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.grid {
+  grid-template-columns: repeat(3, 1fr);
+}

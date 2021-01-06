@@ -1,0 +1,93 @@
+.navbar {
+  position: sticky;
+  top: 0px;
+  background-color: purple;
+  height: 55px;
+  padding: 0 15px 0 15px;
+  border-bottom: cyan solid 3px;
+}
+.navbar nav {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 2rem;
+}
+.navbar ul {
+  /* border: green 2px solid; */
+  display: flex;
+}
+
+.navbar ul li a {
+  padding-left: 5px;
+  display: none;
+}
+
+.burger {
+  padding-top: 2px;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.stick-top {
+  position: sticky;
+  top: 0px;
+  background-color: green;
+}
+
+@media (min-width: 400px) {
+  .navbar {
+    display: flex;
+    justify-content: center;
+  }
+  .navbar ul li a {
+    display: flex;
+  }
+  .burger {
+    display: none;
+  }
+  .container {
+    max-width: 600px;
+    /* background-color: pink; */
+    justify-content: space-around;
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) {
+  /* body {
+    display: none;
+  } */
+  .navbar {
+    display: flex;
+    justify-content: center;
+  }
+  .navbar nav {
+    /* border: greenyellow solid 3px; */
+    height: 100%;
+  }
+  .navbar ul {
+    height: 100%;
+  }
+  .navbar ul li {
+    /* background-color: green; */
+    height: 100%;
+  }
+  .navbar ul li a {
+    padding: 0 15px;
+    height: 100%;
+    align-items: center;
+  }
+  .navbar ul li a:hover {
+    background: red;
+  }
+  .burger {
+    display: none;
+  }
+  .container {
+    max-width: 1300px;
+    /* background-color: green; */
+    justify-content: space-around;
+    width: 100%;
+  }
+}

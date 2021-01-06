@@ -1,0 +1,43 @@
+.homepage {
+  border: green solid 5px;
+  /* background: red; */
+  height: 600px;
+}
+
+.content {
+  flex-direction: column;
+  height: 100%;
+  border: solid 2px red;
+  justify-content: flex-start;
+  text-align: center;
+}
+
+.content h1 {
+  font-size: 3rem;
+  z-index: 1;
+  padding: 50px 0;
+}
+.content h1 span {
+  font-size: 4rem;
+  color: red;
+}
+.content h2 {
+  font-size: 3rem;
+  z-index: 1;
+  padding: 15px 0;
+}
+
+.content img {
+  width: 200px;
+  align-self: center;
+  border: red 2px solid;
+}
+.content .content-img img {
+  width: 80px;
+}
+/* .print-items {
+  position: absolute;
+  left: 10px;
+  bottom: 0;
+  border: solid red 3px;
+} */
